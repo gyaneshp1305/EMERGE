@@ -20,12 +20,12 @@ header {
 nav ul {
     background-color: #444;
     list-style: none;
-    text-align: center;
+    text-align: left;
     padding: 10px;
 }
 
 nav ul li {
-    display: inline;
+    display:inline-block;
     margin-right: 20px;
 }
 
@@ -59,7 +59,7 @@ footer {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: right;
     background-color: #333;
     color: #fff;
     padding: 20px;
